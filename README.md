@@ -4,7 +4,7 @@
 
 This project analyzes healthcare admission records using SQL, Power Query, and Power BI.
 
-SQL and Power Query were used to clean and prepare the dataset. Python/Pandas was then used for exploratory data analysis, including descriptive statistics, sorting, distribution analysis, and time-based exploration. Seaborn and Matplotlib were used to visualize selected patterns, while Power BI was used to build an interactive dashboard summarizing the cleaned dataset.
+SQL and Power Query were used to clean and prepare the dataset. Python/Pandas was then used for exploratory data analysis, including descriptive statistics, sorting, distribution analysis, and time-based exploration.Power BI was used to build an interactive dashboard summarizing the cleaned dataset.
 
 The analysis focused on patient age, billing amounts, medical conditions, admission types, length of stay, and admission trends over time.
 
@@ -58,8 +58,5 @@ src="https://github.com/user-attachments/assets/24631775-1bfc-4d7c-b4b6-b0da8642
 ## Tools and Techniques Used
 
 - **SQL:** CTEs, `DELETE`, `UPDATE`, `WHERE`, duplicate removal, data standardization
-- **Pandas:** `read_csv()`, `info()`, `describe()`, `sort_values()`, `value_counts()`, `resample()`
-- **Seaborn:** Histograms and box plots
-- **Matplotlib:** Line charts, markers, titles, and axis labels
 - **Power BI:** Interactive dashboard and trend visualization
 - **Power Query:** Data type changes and additional formatting
