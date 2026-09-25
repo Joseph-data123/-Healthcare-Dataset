@@ -2,7 +2,7 @@
 
 ## Executive Summary
 
-This project analyzes healthcare admission records using SQL, Power Query, Python/Pandas, Seaborn, Matplotlib, and Power BI.
+This project analyzes healthcare admission records using SQL, Power Query, and Power BI.
 
 SQL and Power Query were used to clean and prepare the dataset. Python/Pandas was then used for exploratory data analysis, including descriptive statistics, sorting, distribution analysis, and time-based exploration. Seaborn and Matplotlib were used to visualize selected patterns, while Power BI was used to build an interactive dashboard summarizing the cleaned dataset.
 
