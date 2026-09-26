@@ -2,11 +2,11 @@
 
 ## Executive Summary
 
-This project analyzes healthcare admission records using SQL, Power Query, and Power BI.
+This project analyzes healthcare admission records using **SQL, Power Query, Python/Pandas, and Power BI**.
 
-SQL and Power Query were used to clean, transform, and prepare the healthcare dataset for analysis, including removing duplicates, correcting data types, standardizing values, and creating calculated fields. Power BI was then used to analyze the cleaned data and build an interactive dashboard highlighting patient demographics, billing, admission types, length of stay, and admission trends over time.
+SQL and Power Query were used to clean, transform, and prepare the dataset by removing duplicates, correcting data types, standardizing values, and creating calculated fields. **Python and Pandas** were then used for exploratory data analysis, including descriptive statistics, distribution analysis, sorting, and time-based exploration.
 
-The analysis focused on patient age, billing amounts, medical conditions, admission types, length of stay, and admission trends over time.
+Power BI was used to build an interactive dashboard highlighting patient demographics, billing amounts, medical conditions, admission types, length of stay, and admission trends over time.
 
 ## Data Cleaning
 
@@ -27,19 +27,18 @@ src="https://github.com/user-attachments/assets/acf8d701-52af-40a4-8562-496ed399
 
 SQL and Power Query were used to clean, transform, and prepare the healthcare dataset for analysis. This included removing duplicate records, filtering invalid billing values, standardizing hospital names, formatting date fields, and creating a Length of Stay column.
 
-Power BI was then used to analyze and visualize the cleaned data through an interactive dashboard.
+Python and Pandas were then used for exploratory data analysis, including descriptive statistics, distribution analysis, sorting, and examining trends over time.
 
-The analysis included:
+Power BI was used to create an interactive dashboard that visualized:
 
 - Patient age distribution
 - Billing amount comparisons
 - Admission type distribution
-- Length of stay analysis
+- Length of stay
 - Medical condition comparisons
 - Monthly hospital admission trends
 
-Power BI visuals were used to identify patterns, compare categories, and summarize the overall performance and structure of the dataset.
-
+Together, Python and Power BI were used to explore the dataset, identify patterns, compare categories, and communicate the key findings visually.
 ## Key Findings
 
 The dataset showed relatively even distributions across several major variables.
@@ -58,7 +57,8 @@ src="https://github.com/user-attachments/assets/24631775-1bfc-4d7c-b4b6-b0da8642
 ## Tools Used
 
 ## Tools and Techniques Used
-
-- **SQL:** CTEs, `DELETE`, `UPDATE`, `WHERE`, duplicate removal, data standardization
-- **Power BI:** Interactive dashboard and trend visualization
-- **Power Query:** Data type changes and additional formatting
+- **SQL:** Data cleaning and standardization  
+- **Python/Pandas:** Exploratory data analysis and descriptive statistics  
+- **Matplotlib & Seaborn:** Histograms, box plots, and trend visualizations to explore distributions and identify possible outliers  
+- **Power Query:** Data transformation and formatting  
+- **Power BI:** Interactive dashboard and data visualization  
