@@ -4,7 +4,7 @@
 
 This project analyzes healthcare admission records using SQL, Power Query, and Power BI.
 
-SQL and Power Query were used to clean and prepare the dataset. Python/Pandas was then used for exploratory data analysis, including descriptive statistics, sorting, distribution analysis, and time-based exploration.Power BI was used to build an interactive dashboard summarizing the cleaned dataset.
+SQL and Power Query were used to clean, transform, and prepare the healthcare dataset for analysis, including removing duplicates, correcting data types, standardizing values, and creating calculated fields. Power BI was then used to analyze the cleaned data and build an interactive dashboard highlighting patient demographics, billing, admission types, length of stay, and admission trends over time.
 
 The analysis focused on patient age, billing amounts, medical conditions, admission types, length of stay, and admission trends over time.
 
@@ -25,18 +25,20 @@ src="https://github.com/user-attachments/assets/acf8d701-52af-40a4-8562-496ed399
 
 ## Exploratory Data Analysis
 
-Python and Pandas were used to further explore the cleaned dataset.
+SQL and Power Query were used to clean, transform, and prepare the healthcare dataset for analysis. This included removing duplicate records, filtering invalid billing values, standardizing hospital names, formatting date fields, and creating a Length of Stay column.
+
+Power BI was then used to analyze and visualize the cleaned data through an interactive dashboard.
 
 The analysis included:
 
-- Summary statistics for age, billing amount, and length of stay
 - Patient age distribution
-- Comparison of billing amounts across groups
-- Distribution of admission types
+- Billing amount comparisons
+- Admission type distribution
+- Length of stay analysis
+- Medical condition comparisons
 - Monthly hospital admission trends
-- Investigation of numerical patterns and possible unusual values
 
-Seaborn was used for exploratory visualizations such as histograms and box plots, while Matplotlib was used to visualize admission trends over time.
+Power BI visuals were used to identify patterns, compare categories, and summarize the overall performance and structure of the dataset.
 
 ## Key Findings
 
